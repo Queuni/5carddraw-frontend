@@ -1,0 +1,44 @@
+# config
+
+
+# Bump dependency to get the security fix for the reported CVE
+
+# Implement proper backoff with jitter for the retry logic
+
+# Handle the case when the external service returns an empty list
+
+# Implement retry logic for the API client when the remote returns 5xx
+
+# Handle the redirect response and follow it to get the final resource
+
+# Implement a small in-memory cache for the config to avoid re-reading
+
+# Correct typo in the error message shown when validation fails
+
+# Simplify the CLI by merging the two similar subcommands into one
+
+# Update the changelog with the fixes included in this release
+
+# Clean up debug print statements before the release
+
+# Fix the encoding issue when reading config files with non-ASCII
+
+# Bump the dependency to fix the compatibility issue with Python 3.12
+
+# Remove the unused parameter that was left from an old refactor
+
+# Handle connection reset by the peer without crashing the worker
+
+# Clean up the formatting and run the linter on the changed files
+
+# Add validation for the config schema before applying settings
+
+# Support both relative and absolute paths for the config file
+
+# Implement retry logic for the API client when the remote returns 5xx
+
+# Handle missing optional field in the response without raising
+
+# Handle the duplicate key case by merging the values instead of failing
+
+# Bump the dependency to fix the compatibility issue with Python 3.12
