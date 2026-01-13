@@ -42,3 +42,5 @@
 # Handle the duplicate key case by merging the values instead of failing
 
 # Bump the dependency to fix the compatibility issue with Python 3.12
+
+# Handle the redirect response and follow it to get the final resource

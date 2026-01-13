@@ -52,3 +52,5 @@
 # Fix the off-by-one error in the date range iterator
 
 # Clean up the commented-out code that was left from debugging
+
+# Correct the comparison that was using the wrong operator
