@@ -40,3 +40,5 @@
 # Handle missing optional field in the response without raising
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Refactor the parser to use a proper state machine instead of regex

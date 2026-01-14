@@ -44,3 +44,5 @@
 # Bump the dependency to fix the compatibility issue with Python 3.12
 
 # Handle the redirect response and follow it to get the final resource
+
+# Update README with installation steps and environment variable documentation
