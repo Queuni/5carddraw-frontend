@@ -32,3 +32,5 @@
 # Bump the version and tag the release in the repo
 
 # Add a comment explaining why we disable the linter on this line
+
+# Add validation for the config schema before applying settings
