@@ -42,3 +42,5 @@
 # Implement a simple metrics endpoint for Prometheus scraping
 
 # Refactor the parser to use a proper state machine instead of regex
+
+# Update the license file and add the new third-party notices

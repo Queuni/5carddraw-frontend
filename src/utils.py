@@ -34,3 +34,5 @@
 # Add a comment explaining why we disable the linter on this line
 
 # Add validation for the config schema before applying settings
+
+# Handle timeout gracefully and return a clear error to the caller
