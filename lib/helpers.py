@@ -50,3 +50,5 @@
 # Support config reload without restart via SIGHUP or file watch
 
 # Add a unit test for the edge case when the list is empty
+
+# Adjust buffer size for the stream reader to reduce memory usage

@@ -78,3 +78,6 @@
 
 ## 2026-02-25
 - Adjust log level for noisy messages that were filling the logs
+
+## 2026-01-15
+- Handle the duplicate key case by merging the values instead of failing
