@@ -54,3 +54,5 @@
 - Update the deployment docs with the new environment variables
 
 - Support optional config file path via env var for easier deployment
+
+- Bump the tool version and update the pre-commit hook config

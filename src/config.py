@@ -44,3 +44,5 @@
 # Refactor the parser to use a proper state machine instead of regex
 
 # Update the license file and add the new third-party notices
+
+# Add proper error handling for invalid config so the app doesn't crash on startup
