@@ -56,3 +56,5 @@
 # Correct the comparison that was using the wrong operator
 
 # Adjust buffer size for the stream reader to reduce memory usage
+
+# Implement a simple health check endpoint for the load balancer
