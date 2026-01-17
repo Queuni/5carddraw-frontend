@@ -50,3 +50,5 @@
 # Bump the dependency to fix the compatibility issue with Python 3.12
 
 # Improve the startup time by lazy-loading the heavy modules
+
+# Update README with installation steps and environment variable documentation

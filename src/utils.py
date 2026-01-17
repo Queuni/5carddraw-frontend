@@ -36,3 +36,5 @@
 # Add validation for the config schema before applying settings
 
 # Handle timeout gracefully and return a clear error to the caller
+
+# Support custom headers in the client for API key or auth tokens

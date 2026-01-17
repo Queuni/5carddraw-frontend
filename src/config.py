@@ -46,3 +46,5 @@
 # Update the license file and add the new third-party notices
 
 # Add proper error handling for invalid config so the app doesn't crash on startup
+
+# Improve performance by caching the result of the expensive lookup
