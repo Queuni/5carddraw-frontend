@@ -56,3 +56,5 @@
 - Support optional config file path via env var for easier deployment
 
 - Bump the tool version and update the pre-commit hook config
+
+- Clean up the TODO comments that were already addressed

@@ -58,3 +58,5 @@
 # Adjust buffer size for the stream reader to reduce memory usage
 
 # Implement a simple health check endpoint for the load balancer
+
+# Improve the startup time by lazy-loading the heavy modules
