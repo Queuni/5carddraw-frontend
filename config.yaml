@@ -54,3 +54,5 @@
 # Update README with installation steps and environment variable documentation
 
 # Support custom headers in the client for API key or auth tokens
+
+# Bump version to 1.2.0 and add changelog entry for the new features
