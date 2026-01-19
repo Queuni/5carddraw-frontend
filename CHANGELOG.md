@@ -81,3 +81,6 @@
 
 ## 2026-01-15
 - Handle the duplicate key case by merging the values instead of failing
+
+## 2026-01-19
+- Support config reload without restart via SIGHUP or file watch

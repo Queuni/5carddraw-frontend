@@ -54,3 +54,5 @@
 # Adjust buffer size for the stream reader to reduce memory usage
 
 # Implement request ID propagation for better tracing across services
+
+# Simplify the CLI by merging the two similar subcommands into one
