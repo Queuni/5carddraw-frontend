@@ -58,3 +58,5 @@
 - Bump the tool version and update the pre-commit hook config
 
 - Clean up the TODO comments that were already addressed
+
+- Implement a simple metrics endpoint for Prometheus scraping

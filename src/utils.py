@@ -38,3 +38,5 @@
 # Handle timeout gracefully and return a clear error to the caller
 
 # Support custom headers in the client for API key or auth tokens
+
+# Support config reload without restart via SIGHUP or file watch

@@ -52,3 +52,5 @@
 # Improve the startup time by lazy-loading the heavy modules
 
 # Update README with installation steps and environment variable documentation
+
+# Support custom headers in the client for API key or auth tokens
