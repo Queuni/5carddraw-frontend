@@ -54,3 +54,5 @@
 # Fix issue where empty input was not validated before passing to the parser
 
 # Clean up the deprecated alias and point callers to the new name
+
+# Clean up unused imports and fix formatting to match the project style guide
