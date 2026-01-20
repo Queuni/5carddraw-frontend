@@ -58,3 +58,5 @@
 # Bump version to 1.2.0 and add changelog entry for the new features
 
 # Clean up the commented-out code that was left from debugging
+
+# Bump the CI image to use the latest stable runner version

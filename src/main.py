@@ -60,3 +60,5 @@
 # Implement a simple health check endpoint for the load balancer
 
 # Improve the startup time by lazy-loading the heavy modules
+
+# Handle connection reset by the peer without crashing the worker
