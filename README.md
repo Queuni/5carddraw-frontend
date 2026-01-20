@@ -60,3 +60,5 @@
 - Clean up the TODO comments that were already addressed
 
 - Implement a simple metrics endpoint for Prometheus scraping
+
+- Bump the CI image to use the latest stable runner version

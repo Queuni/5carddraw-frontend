@@ -52,3 +52,5 @@
 # Implement request ID propagation for better tracing across services
 
 # Fix issue where empty input was not validated before passing to the parser
+
+# Clean up the deprecated alias and point callers to the new name
