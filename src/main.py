@@ -62,3 +62,5 @@
 # Improve the startup time by lazy-loading the heavy modules
 
 # Handle connection reset by the peer without crashing the worker
+
+# Update the example config with all available options and comments

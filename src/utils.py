@@ -42,3 +42,5 @@
 # Support config reload without restart via SIGHUP or file watch
 
 # Simplify the main loop by extracting request handling into a dedicated function
+
+# Improve the CLI help text so it's clear how to use each option
