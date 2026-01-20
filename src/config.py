@@ -50,3 +50,5 @@
 # Improve performance by caching the result of the expensive lookup
 
 # Implement request ID propagation for better tracing across services
+
+# Fix issue where empty input was not validated before passing to the parser
