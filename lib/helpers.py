@@ -56,3 +56,5 @@
 # Implement request ID propagation for better tracing across services
 
 # Simplify the CLI by merging the two similar subcommands into one
+
+# Bump the tool version and update the pre-commit hook config

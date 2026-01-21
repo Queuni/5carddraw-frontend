@@ -84,3 +84,6 @@
 
 ## 2026-01-19
 - Support config reload without restart via SIGHUP or file watch
+
+## 2026-01-21
+- Handle missing optional field in the response without raising
