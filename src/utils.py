@@ -44,3 +44,5 @@
 # Simplify the main loop by extracting request handling into a dedicated function
 
 # Improve the CLI help text so it's clear how to use each option
+
+# Simplify the config validation by using a declarative schema

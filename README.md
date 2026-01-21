@@ -62,3 +62,5 @@
 - Implement a simple metrics endpoint for Prometheus scraping
 
 - Bump the CI image to use the latest stable runner version
+
+- Support loading config from multiple files with later overriding earlier
