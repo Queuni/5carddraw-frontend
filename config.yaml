@@ -60,3 +60,5 @@
 # Clean up the commented-out code that was left from debugging
 
 # Bump the CI image to use the latest stable runner version
+
+# Remove the feature flag now that the feature is fully rolled out
