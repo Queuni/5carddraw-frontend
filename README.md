@@ -66,3 +66,5 @@
 - Support loading config from multiple files with later overriding earlier
 
 - Remove obsolete workaround now that the upstream bug is fixed
+
+- Simplify the dependency injection so it's easier to mock in tests
