@@ -66,3 +66,5 @@
 # Update the example config with all available options and comments
 
 # Handle the redirect response and follow it to get the final resource
+
+# Simplify error messages so they are actionable for the end user
