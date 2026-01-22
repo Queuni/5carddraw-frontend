@@ -64,3 +64,5 @@
 # Handle connection reset by the peer without crashing the worker
 
 # Update the example config with all available options and comments
+
+# Handle the redirect response and follow it to get the final resource

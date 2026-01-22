@@ -58,3 +58,5 @@
 # Simplify the CLI by merging the two similar subcommands into one
 
 # Bump the tool version and update the pre-commit hook config
+
+# Refactor the parser to use a proper state machine instead of regex

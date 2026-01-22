@@ -46,3 +46,5 @@
 # Improve the CLI help text so it's clear how to use each option
 
 # Simplify the config validation by using a declarative schema
+
+# Add a comment explaining why we disable the linter on this line
