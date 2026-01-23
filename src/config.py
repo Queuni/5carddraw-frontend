@@ -64,3 +64,5 @@
 # Handle edge case when the response body is empty but status is 200
 
 # Remove the feature flag now that the feature is fully rolled out
+
+# Bump the Docker base image to get the latest security patches
