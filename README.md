@@ -68,3 +68,5 @@
 - Remove obsolete workaround now that the upstream bug is fixed
 
 - Simplify the dependency injection so it's easier to mock in tests
+
+- Clean up unused imports and fix formatting to match the project style guide
