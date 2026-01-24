@@ -66,3 +66,5 @@
 # Remove the feature flag now that the feature is fully rolled out
 
 # Bump the Docker base image to get the latest security patches
+
+# Implement a small in-memory cache for the config to avoid re-reading
