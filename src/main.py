@@ -68,3 +68,5 @@
 # Handle the redirect response and follow it to get the final resource
 
 # Simplify error messages so they are actionable for the end user
+
+# Implement a small in-memory cache for the config to avoid re-reading
