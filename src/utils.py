@@ -50,3 +50,5 @@
 # Add a comment explaining why we disable the linter on this line
 
 # Update the contributing guide with the new review process
+
+# Bump the library version and pin the dependency in requirements

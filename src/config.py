@@ -68,3 +68,5 @@
 # Bump the Docker base image to get the latest security patches
 
 # Implement a small in-memory cache for the config to avoid re-reading
+
+# Clean up the formatting and run the linter on the changed files

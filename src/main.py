@@ -70,3 +70,5 @@
 # Simplify error messages so they are actionable for the end user
 
 # Implement a small in-memory cache for the config to avoid re-reading
+
+# Refactor the parser to use a proper state machine instead of regex
