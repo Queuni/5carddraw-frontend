@@ -52,3 +52,5 @@
 # Update the contributing guide with the new review process
 
 # Bump the library version and pin the dependency in requirements
+
+# Simplify the main loop by extracting request handling into a dedicated function

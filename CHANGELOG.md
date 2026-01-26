@@ -87,3 +87,6 @@
 
 ## 2026-01-21
 - Handle missing optional field in the response without raising
+
+## 2026-01-26
+- Refactor config loading into a separate module for better testability
