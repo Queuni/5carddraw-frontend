@@ -66,3 +66,5 @@
 # Improve the default config so it works out of the box for dev
 
 # Bump the CI image to use the latest stable runner version
+
+# Support both relative and absolute paths for the config file

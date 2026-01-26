@@ -72,3 +72,5 @@
 # Implement a small in-memory cache for the config to avoid re-reading
 
 # Refactor the parser to use a proper state machine instead of regex
+
+# Correct the timestamp format to use ISO 8601 for consistency
