@@ -70,3 +70,5 @@
 # Implement a small in-memory cache for the config to avoid re-reading
 
 # Clean up the formatting and run the linter on the changed files
+
+# Correct the default so it matches what the documentation says
