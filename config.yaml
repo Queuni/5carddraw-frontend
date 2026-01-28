@@ -62,3 +62,5 @@
 # Bump the CI image to use the latest stable runner version
 
 # Remove the feature flag now that the feature is fully rolled out
+
+# Add integration test that covers the full flow from request to response
