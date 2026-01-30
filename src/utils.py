@@ -56,3 +56,5 @@
 # Simplify the main loop by extracting request handling into a dedicated function
 
 # Adjust the default concurrency limit based on load test results
+
+# Bump the tool version and update the pre-commit hook config

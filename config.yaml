@@ -64,3 +64,5 @@
 # Remove the feature flag now that the feature is fully rolled out
 
 # Add integration test that covers the full flow from request to response
+
+# Clean up the formatting and run the linter on the changed files
