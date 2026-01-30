@@ -72,3 +72,5 @@
 # Clean up the formatting and run the linter on the changed files
 
 # Correct the default so it matches what the documentation says
+
+# Support both YAML and JSON config formats for flexibility
