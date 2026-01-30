@@ -74,3 +74,5 @@
 # Refactor the parser to use a proper state machine instead of regex
 
 # Correct the timestamp format to use ISO 8601 for consistency
+
+# Implement a simple metrics endpoint for Prometheus scraping

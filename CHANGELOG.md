@@ -93,3 +93,6 @@
 
 ## 2026-01-28
 - Adjust the batch size to reduce memory usage on large inputs
+
+## 2026-01-30
+- Refactor config loading into a separate module for better testability
