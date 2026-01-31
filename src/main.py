@@ -76,3 +76,5 @@
 # Correct the timestamp format to use ISO 8601 for consistency
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Adjust the pool size to match the actual concurrency we need
