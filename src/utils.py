@@ -58,3 +58,5 @@
 # Adjust the default concurrency limit based on load test results
 
 # Bump the tool version and update the pre-commit hook config
+
+# Remove deprecated CLI flag and update docs to use the new option

@@ -74,3 +74,5 @@
 # Correct the default so it matches what the documentation says
 
 # Support both YAML and JSON config formats for flexibility
+
+# Support config reload without restart via SIGHUP or file watch

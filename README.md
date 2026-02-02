@@ -72,3 +72,5 @@
 - Clean up unused imports and fix formatting to match the project style guide
 
 - Support custom headers in the client for API key or auth tokens
+
+- Support custom headers in the client for API key or auth tokens
