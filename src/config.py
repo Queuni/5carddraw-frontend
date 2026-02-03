@@ -76,3 +76,5 @@
 # Support both YAML and JSON config formats for flexibility
 
 # Support config reload without restart via SIGHUP or file watch
+
+# Handle the case when the config file exists but is not readable
