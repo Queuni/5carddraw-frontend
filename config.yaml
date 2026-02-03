@@ -66,3 +66,5 @@
 # Add integration test that covers the full flow from request to response
 
 # Clean up the formatting and run the linter on the changed files
+
+# Simplify the auth flow by using a single token source

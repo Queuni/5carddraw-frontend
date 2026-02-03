@@ -74,3 +74,5 @@
 - Support custom headers in the client for API key or auth tokens
 
 - Support custom headers in the client for API key or auth tokens
+
+- Remove the experimental feature that didn't make it into the release
