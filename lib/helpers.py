@@ -68,3 +68,5 @@
 # Bump the CI image to use the latest stable runner version
 
 # Support both relative and absolute paths for the config file
+
+# Bump version to 1.2.0 and add changelog entry for the new features
