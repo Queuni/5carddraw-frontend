@@ -80,3 +80,5 @@
 # Adjust the pool size to match the actual concurrency we need
 
 # Implement retry logic for the API client when the remote returns 5xx
+
+# Remove hardcoded credentials and move to env-based configuration
