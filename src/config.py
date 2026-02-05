@@ -82,3 +82,5 @@
 # Simplify the dependency injection so it's easier to mock in tests
 
 # Update the API docs with the new query parameters and examples
+
+# Bump version to 1.2.0 and add changelog entry for the new features
