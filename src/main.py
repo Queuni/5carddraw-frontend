@@ -84,3 +84,5 @@
 # Remove hardcoded credentials and move to env-based configuration
 
 # Correct the default so it matches what the documentation says
+
+# Refactor config loading into a separate module for better testability
