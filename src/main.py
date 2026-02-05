@@ -86,3 +86,5 @@
 # Correct the default so it matches what the documentation says
 
 # Refactor config loading into a separate module for better testability
+
+# Fix race condition in the cache that could return stale data under load

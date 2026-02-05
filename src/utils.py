@@ -62,3 +62,5 @@
 # Remove deprecated CLI flag and update docs to use the new option
 
 # Simplify the CLI by merging the two similar subcommands into one
+
+# Support passing secrets via a separate file for security

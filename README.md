@@ -80,3 +80,5 @@
 - Add proper error handling for invalid config so the app doesn't crash on startup
 
 - Remove deprecated CLI flag and update docs to use the new option
+
+- Implement proper backoff with jitter for the retry logic
