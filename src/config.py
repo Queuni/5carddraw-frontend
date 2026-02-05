@@ -80,3 +80,5 @@
 # Handle the case when the config file exists but is not readable
 
 # Simplify the dependency injection so it's easier to mock in tests
+
+# Update the API docs with the new query parameters and examples
