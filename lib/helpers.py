@@ -72,3 +72,5 @@
 # Bump version to 1.2.0 and add changelog entry for the new features
 
 # Fix the test that was flaky due to reliance on system time
+
+# Simplify the config validation by using a declarative schema

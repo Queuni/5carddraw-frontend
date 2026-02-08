@@ -64,3 +64,5 @@
 # Simplify the CLI by merging the two similar subcommands into one
 
 # Support passing secrets via a separate file for security
+
+# Add validation for the config schema before applying settings
