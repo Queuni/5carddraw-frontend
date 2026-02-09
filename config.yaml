@@ -74,3 +74,5 @@
 # Clean up the test fixtures and move shared data to a single file
 
 # Update dependencies and resolve compatibility warning from pytest
+
+# Update the changelog with the fixes included in this release
