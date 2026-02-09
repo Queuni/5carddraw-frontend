@@ -86,3 +86,5 @@
 - Fix bug where the parser would hang on malformed input
 
 - Add integration tests for the new export endpoint
+
+- Add validation for the config schema before applying settings
