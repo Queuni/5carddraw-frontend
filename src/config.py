@@ -86,3 +86,5 @@
 # Bump version to 1.2.0 and add changelog entry for the new features
 
 # Simplify the build script by using the same steps for dev and prod
+
+# Support optional config file path via env var for easier deployment
