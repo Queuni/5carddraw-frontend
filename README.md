@@ -84,3 +84,5 @@
 - Implement proper backoff with jitter for the retry logic
 
 - Fix bug where the parser would hang on malformed input
+
+- Add integration tests for the new export endpoint

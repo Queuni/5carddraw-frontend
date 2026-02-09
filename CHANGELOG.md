@@ -96,3 +96,6 @@
 
 ## 2026-01-30
 - Refactor config loading into a separate module for better testability
+
+## 2026-02-09
+- Adjust the default concurrency limit based on load test results
