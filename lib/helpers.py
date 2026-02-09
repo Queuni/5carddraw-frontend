@@ -74,3 +74,5 @@
 # Fix the test that was flaky due to reliance on system time
 
 # Simplify the config validation by using a declarative schema
+
+# Implement a simple health check endpoint for the load balancer

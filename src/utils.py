@@ -66,3 +66,5 @@
 # Support passing secrets via a separate file for security
 
 # Add validation for the config schema before applying settings
+
+# Update the contributing guide with the new review process

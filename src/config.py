@@ -88,3 +88,5 @@
 # Simplify the build script by using the same steps for dev and prod
 
 # Support optional config file path via env var for easier deployment
+
+# Adjust timeout and retry settings based on production observations
