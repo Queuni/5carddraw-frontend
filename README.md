@@ -88,3 +88,5 @@
 - Add integration tests for the new export endpoint
 
 - Add validation for the config schema before applying settings
+
+- Adjust the threshold so we only log when it's actually an issue
