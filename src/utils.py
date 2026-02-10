@@ -68,3 +68,5 @@
 # Add validation for the config schema before applying settings
 
 # Update the contributing guide with the new review process
+
+# Bump the dependency to fix the compatibility issue with Python 3.12
