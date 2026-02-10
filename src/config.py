@@ -90,3 +90,5 @@
 # Support optional config file path via env var for easier deployment
 
 # Adjust timeout and retry settings based on production observations
+
+# Support config reload without restart via SIGHUP or file watch

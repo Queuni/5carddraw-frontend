@@ -99,3 +99,6 @@
 
 ## 2026-02-09
 - Adjust the default concurrency limit based on load test results
+
+## 2026-02-10
+- Remove obsolete workaround now that the upstream bug is fixed
