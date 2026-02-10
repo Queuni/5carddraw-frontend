@@ -76,3 +76,5 @@
 # Simplify the config validation by using a declarative schema
 
 # Implement a simple health check endpoint for the load balancer
+
+# Adjust timeout and retry settings based on production observations

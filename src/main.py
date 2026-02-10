@@ -92,3 +92,5 @@
 # Simplify the build script by using the same steps for dev and prod
 
 # Clean up the test fixtures and move shared data to a single file
+
+# Add a unit test for the edge case when the list is empty
