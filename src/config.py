@@ -94,3 +94,5 @@
 # Support config reload without restart via SIGHUP or file watch
 
 # Add integration test that covers the full flow from request to response
+
+# Update documentation to reflect the new API and usage examples

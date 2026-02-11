@@ -92,3 +92,5 @@
 - Adjust the threshold so we only log when it's actually an issue
 
 - Refactor config loading into a separate module for better testability
+
+- Handle the case when the config file exists but is not readable

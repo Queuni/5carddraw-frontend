@@ -70,3 +70,5 @@
 # Update the contributing guide with the new review process
 
 # Bump the dependency to fix the compatibility issue with Python 3.12
+
+# Simplify the config validation by using a declarative schema
