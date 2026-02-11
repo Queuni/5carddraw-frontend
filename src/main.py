@@ -94,3 +94,5 @@
 # Clean up the test fixtures and move shared data to a single file
 
 # Add a unit test for the edge case when the list is empty
+
+# Remove obsolete workaround now that the upstream bug is fixed
