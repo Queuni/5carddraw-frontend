@@ -105,3 +105,6 @@
 
 ## 2026-02-11
 - Remove the deprecated wrapper and use the library API directly
+
+## 2026-02-11
+- Add proper error handling for invalid config so the app doesn't crash on startup

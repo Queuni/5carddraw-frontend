@@ -94,3 +94,5 @@
 - Refactor config loading into a separate module for better testability
 
 - Handle the case when the config file exists but is not readable
+
+- Clean up the deprecated alias and point callers to the new name
