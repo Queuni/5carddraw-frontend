@@ -78,3 +78,5 @@
 # Update the changelog with the fixes included in this release
 
 # Add a note in the README about the breaking change in 2.0
+
+# Handle the case when the config file exists but is not readable

@@ -92,3 +92,5 @@
 # Adjust timeout and retry settings based on production observations
 
 # Support config reload without restart via SIGHUP or file watch
+
+# Add integration test that covers the full flow from request to response
