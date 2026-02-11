@@ -102,3 +102,6 @@
 
 ## 2026-02-10
 - Remove obsolete workaround now that the upstream bug is fixed
+
+## 2026-02-11
+- Remove the deprecated wrapper and use the library API directly
