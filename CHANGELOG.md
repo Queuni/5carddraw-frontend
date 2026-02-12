@@ -108,3 +108,6 @@
 
 ## 2026-02-11
 - Add proper error handling for invalid config so the app doesn't crash on startup
+
+## 2026-02-12
+- Update dependencies and resolve compatibility warning from pytest
