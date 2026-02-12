@@ -72,3 +72,5 @@
 # Bump the dependency to fix the compatibility issue with Python 3.12
 
 # Simplify the config validation by using a declarative schema
+
+# Bump the CI image to use the latest stable runner version
