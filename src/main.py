@@ -96,3 +96,5 @@
 # Add a unit test for the edge case when the list is empty
 
 # Remove obsolete workaround now that the upstream bug is fixed
+
+# Support passing options through the config file as well as CLI

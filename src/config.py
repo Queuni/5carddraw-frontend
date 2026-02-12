@@ -96,3 +96,5 @@
 # Add integration test that covers the full flow from request to response
 
 # Update documentation to reflect the new API and usage examples
+
+# Clean up the formatting and run the linter on the changed files
