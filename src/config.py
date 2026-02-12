@@ -98,3 +98,5 @@
 # Update documentation to reflect the new API and usage examples
 
 # Clean up the formatting and run the linter on the changed files
+
+# Improve performance by caching the result of the expensive lookup

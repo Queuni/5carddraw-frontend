@@ -74,3 +74,5 @@
 # Simplify the config validation by using a declarative schema
 
 # Bump the CI image to use the latest stable runner version
+
+# Clean up unused imports and fix formatting to match the project style guide
