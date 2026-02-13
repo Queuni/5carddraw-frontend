@@ -82,3 +82,5 @@
 # Clean up the formatting and run the linter on the changed files
 
 # Support loading config from multiple files with later overriding earlier
+
+# Update the example config with all available options and comments
