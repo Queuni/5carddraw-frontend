@@ -78,3 +78,5 @@
 # Clean up unused imports and fix formatting to match the project style guide
 
 # Improve the error recovery when the database connection is lost
+
+# Simplify the main loop by extracting request handling into a dedicated function
