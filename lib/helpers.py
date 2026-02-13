@@ -84,3 +84,5 @@
 # Support loading config from multiple files with later overriding earlier
 
 # Update the example config with all available options and comments
+
+# Bump the library version and pin the dependency in requirements
