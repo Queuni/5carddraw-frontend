@@ -96,3 +96,5 @@
 - Handle the case when the config file exists but is not readable
 
 - Clean up the deprecated alias and point callers to the new name
+
+- Refactor exports so the public API is clearer and easier to use
