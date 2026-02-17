@@ -108,3 +108,5 @@
 # Correct the default value for the feature flag in production
 
 # Improve error message when the required env var is not set
+
+# Add validation for the config schema before applying settings

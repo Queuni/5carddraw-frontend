@@ -114,3 +114,6 @@
 
 ## 2026-02-17
 - Fix incorrect type hint that was causing mypy to fail in CI
+
+## 2026-02-17
+- Simplify the CLI by merging the two similar subcommands into one
