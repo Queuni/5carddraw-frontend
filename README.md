@@ -100,3 +100,5 @@
 - Refactor exports so the public API is clearer and easier to use
 
 - Refactor utils to use a single source of truth for default values
+
+- Correct the logic that determined whether to use cache or not

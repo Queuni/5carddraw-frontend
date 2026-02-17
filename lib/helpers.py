@@ -90,3 +90,5 @@
 # Implement a simple metrics endpoint for Prometheus scraping
 
 # Remove hardcoded credentials and move to env-based configuration
+
+# Remove the temporary debug endpoint before the release
