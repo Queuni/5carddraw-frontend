@@ -86,3 +86,5 @@
 # Update the example config with all available options and comments
 
 # Bump the library version and pin the dependency in requirements
+
+# Implement a simple metrics endpoint for Prometheus scraping

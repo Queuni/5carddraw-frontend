@@ -111,3 +111,6 @@
 
 ## 2026-02-12
 - Update dependencies and resolve compatibility warning from pytest
+
+## 2026-02-17
+- Fix incorrect type hint that was causing mypy to fail in CI
