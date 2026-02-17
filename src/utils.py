@@ -82,3 +82,5 @@
 # Simplify the main loop by extracting request handling into a dedicated function
 
 # Handle connection reset by the peer without crashing the worker
+
+# Adjust timeout and retry settings based on production observations
