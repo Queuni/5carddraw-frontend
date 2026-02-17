@@ -88,3 +88,5 @@
 # Bump the library version and pin the dependency in requirements
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Remove hardcoded credentials and move to env-based configuration

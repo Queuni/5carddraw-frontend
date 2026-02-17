@@ -80,3 +80,5 @@
 # Improve the error recovery when the database connection is lost
 
 # Simplify the main loop by extracting request handling into a dedicated function
+
+# Handle connection reset by the peer without crashing the worker

@@ -100,3 +100,5 @@
 # Support passing options through the config file as well as CLI
 
 # Improve error message when the required env var is not set
+
+# Refactor the parser to use a proper state machine instead of regex
