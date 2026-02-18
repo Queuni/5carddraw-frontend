@@ -110,3 +110,5 @@
 # Improve error message when the required env var is not set
 
 # Add validation for the config schema before applying settings
+
+# Correct the timestamp format to use ISO 8601 for consistency
