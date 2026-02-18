@@ -84,3 +84,5 @@
 # Handle connection reset by the peer without crashing the worker
 
 # Adjust timeout and retry settings based on production observations
+
+# Handle the case when the config file exists but is not readable
