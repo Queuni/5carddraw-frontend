@@ -117,3 +117,6 @@
 
 ## 2026-02-17
 - Simplify the CLI by merging the two similar subcommands into one
+
+## 2026-02-18
+- Adjust the queue size to prevent drops under burst traffic
