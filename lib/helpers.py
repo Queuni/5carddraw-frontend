@@ -94,3 +94,5 @@
 # Remove the temporary debug endpoint before the release
 
 # Simplify the build script by using the same steps for dev and prod
+
+# Simplify the config merge logic so overrides are predictable

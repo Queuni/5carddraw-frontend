@@ -112,3 +112,5 @@
 # Add validation for the config schema before applying settings
 
 # Correct the timestamp format to use ISO 8601 for consistency
+
+# Correct the default path used when no config file is specified
