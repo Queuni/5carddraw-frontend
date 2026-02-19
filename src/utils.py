@@ -86,3 +86,5 @@
 # Adjust timeout and retry settings based on production observations
 
 # Handle the case when the config file exists but is not readable
+
+# Add a comment explaining why we disable the linter on this line
