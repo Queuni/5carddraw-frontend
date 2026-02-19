@@ -106,3 +106,5 @@
 # Simplify the validation flow by reusing the same schema
 
 # Adjust the default concurrency limit based on load test results
+
+# Implement a simple metrics endpoint for Prometheus scraping

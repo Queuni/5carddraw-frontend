@@ -90,3 +90,5 @@
 # Add a comment explaining why we disable the linter on this line
 
 # Implement retry logic for the API client when the remote returns 5xx
+
+# Add a smoke test that runs in CI to catch obvious regressions

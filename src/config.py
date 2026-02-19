@@ -116,3 +116,5 @@
 # Correct the default path used when no config file is specified
 
 # Support both YAML and JSON config formats for flexibility
+
+# Support custom headers in the client for API key or auth tokens
