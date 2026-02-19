@@ -120,3 +120,6 @@
 
 ## 2026-02-18
 - Adjust the queue size to prevent drops under burst traffic
+
+## 2026-02-19
+- Add validation for the config schema before applying settings

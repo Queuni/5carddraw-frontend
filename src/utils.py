@@ -88,3 +88,5 @@
 # Handle the case when the config file exists but is not readable
 
 # Add a comment explaining why we disable the linter on this line
+
+# Implement retry logic for the API client when the remote returns 5xx

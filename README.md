@@ -102,3 +102,5 @@
 - Refactor utils to use a single source of truth for default values
 
 - Correct the logic that determined whether to use cache or not
+
+- Bump the library version and pin the dependency in requirements
