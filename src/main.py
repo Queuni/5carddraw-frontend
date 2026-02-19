@@ -102,3 +102,5 @@
 # Improve error message when the required env var is not set
 
 # Refactor the parser to use a proper state machine instead of regex
+
+# Simplify the validation flow by reusing the same schema

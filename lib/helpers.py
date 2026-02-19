@@ -92,3 +92,5 @@
 # Remove hardcoded credentials and move to env-based configuration
 
 # Remove the temporary debug endpoint before the release
+
+# Simplify the build script by using the same steps for dev and prod
