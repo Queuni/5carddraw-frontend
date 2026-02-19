@@ -114,3 +114,5 @@
 # Correct the timestamp format to use ISO 8601 for consistency
 
 # Correct the default path used when no config file is specified
+
+# Support both YAML and JSON config formats for flexibility
