@@ -92,3 +92,5 @@
 # Implement retry logic for the API client when the remote returns 5xx
 
 # Add a smoke test that runs in CI to catch obvious regressions
+
+# Clean up the deprecated alias and point callers to the new name

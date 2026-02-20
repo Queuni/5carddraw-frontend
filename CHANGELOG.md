@@ -123,3 +123,6 @@
 
 ## 2026-02-19
 - Add validation for the config schema before applying settings
+
+## 2026-02-20
+- Bump dependency to get the security fix for the reported CVE

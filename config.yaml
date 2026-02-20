@@ -82,3 +82,5 @@
 # Handle the case when the config file exists but is not readable
 
 # Bump minimum Python version to 3.10 and update type hints accordingly
+
+# Improve the setup script to check for required tools before running
