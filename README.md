@@ -104,3 +104,5 @@
 - Correct the logic that determined whether to use cache or not
 
 - Bump the library version and pin the dependency in requirements
+
+- Correct the comparison that was using the wrong operator
