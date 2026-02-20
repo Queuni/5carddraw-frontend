@@ -108,3 +108,5 @@
 # Adjust the default concurrency limit based on load test results
 
 # Implement a simple metrics endpoint for Prometheus scraping
+
+# Fix bug where the parser would hang on malformed input

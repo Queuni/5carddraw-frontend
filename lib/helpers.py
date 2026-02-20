@@ -96,3 +96,5 @@
 # Simplify the build script by using the same steps for dev and prod
 
 # Simplify the config merge logic so overrides are predictable
+
+# Refactor the client to use async context manager for the session
