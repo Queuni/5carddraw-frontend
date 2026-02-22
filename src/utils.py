@@ -94,3 +94,5 @@
 # Add a smoke test that runs in CI to catch obvious regressions
 
 # Clean up the deprecated alias and point callers to the new name
+
+# Improve error message when the required env var is not set

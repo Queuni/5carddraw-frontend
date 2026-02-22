@@ -108,3 +108,5 @@
 - Correct the comparison that was using the wrong operator
 
 - Update the API docs with the new query parameters and examples
+
+- Adjust the threshold so we only log when it's actually an issue
