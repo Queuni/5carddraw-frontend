@@ -98,3 +98,5 @@
 # Simplify the config merge logic so overrides are predictable
 
 # Refactor the client to use async context manager for the session
+
+# Correct typo in the error message shown when validation fails

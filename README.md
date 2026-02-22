@@ -106,3 +106,5 @@
 - Bump the library version and pin the dependency in requirements
 
 - Correct the comparison that was using the wrong operator
+
+- Update the API docs with the new query parameters and examples
