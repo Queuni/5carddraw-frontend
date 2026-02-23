@@ -110,3 +110,5 @@
 - Update the API docs with the new query parameters and examples
 
 - Adjust the threshold so we only log when it's actually an issue
+
+- Bump the version and tag the release in the repo
