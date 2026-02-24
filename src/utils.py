@@ -98,3 +98,5 @@
 # Improve error message when the required env var is not set
 
 # Clean up the formatting and run the linter on the changed files
+
+# Add a note in the README about the breaking change in 2.0
