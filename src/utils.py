@@ -102,3 +102,5 @@
 # Add a note in the README about the breaking change in 2.0
 
 # Remove hardcoded credentials and move to env-based configuration
+
+# Adjust log level for noisy messages that were filling the logs

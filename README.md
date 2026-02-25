@@ -116,3 +116,5 @@
 - Add a smoke test that runs in CI to catch obvious regressions
 
 - Correct the default path used when no config file is specified
+
+- Update the changelog with the fixes included in this release
