@@ -129,3 +129,6 @@
 
 ## 2026-02-25
 - Clean up debug print statements before the release
+
+## 2026-02-25
+- Update dependencies and resolve compatibility warning from pytest
