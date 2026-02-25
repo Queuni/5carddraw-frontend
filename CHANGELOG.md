@@ -126,3 +126,6 @@
 
 ## 2026-02-20
 - Bump dependency to get the security fix for the reported CVE
+
+## 2026-02-25
+- Clean up debug print statements before the release

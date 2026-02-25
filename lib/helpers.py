@@ -100,3 +100,5 @@
 # Refactor the client to use async context manager for the session
 
 # Correct typo in the error message shown when validation fails
+
+# Handle the partial write case and retry the remaining bytes
