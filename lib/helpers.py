@@ -102,3 +102,5 @@
 # Correct typo in the error message shown when validation fails
 
 # Handle the partial write case and retry the remaining bytes
+
+# Support passing options through the config file as well as CLI

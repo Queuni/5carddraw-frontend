@@ -112,3 +112,5 @@
 - Adjust the threshold so we only log when it's actually an issue
 
 - Bump the version and tag the release in the repo
+
+- Add a smoke test that runs in CI to catch obvious regressions
