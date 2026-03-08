@@ -1,120 +1,145 @@
-# Project
+# 5 Card Draw
 
+A **Unity** poker game featuring single-player vs CPU and online multiplayer. Built with Unity 2022.3 and playable on **WebGL** and **Android**.
 
-- Implement fallback to default value when config key is missing
+---
 
-- Simplify the build script by using the same steps for dev and prod
+## Overview
 
-- Clean up the formatting and run the linter on the changed files
+**5 Card Draw** is a classic poker game where each player is dealt five cards and may exchange cards before the final showdown. This project is the frontend client: a Unity game that connects to a backend API and WebSocket server for authentication, matchmaking, and real-time multiplayer.
 
-- Fix the ordering of middleware so auth runs before the handler
+| Mode            | Description                                      |
+|-----------------|--------------------------------------------------|
+| **Single Player** | Play against CPU opponents with hand evaluation. |
+| **Multiplayer**   | Join rooms and play with others in real time.   |
 
-- Support passing options through the config file as well as CLI
+---
 
-- Clean up unused imports and fix formatting to match the project style guide
+## Requirements
 
-- Correct the default so it matches what the documentation says
+- **Unity 2022.3** (LTS) or compatible (e.g. 2022.3.62f2)
+- Backend API and WebSocket server (see [Backend](#backend) below)
 
-- Clean up the formatting and run the linter on the changed files
+---
 
-- Bump the tool version and update the pre-commit hook config
+## Project Structure
 
-- Fix the memory leak in the long-running worker process
+```
+Assets/
+├── Scenes/           # Game scenes
+│   ├── SplashScene
+│   ├── RegisterScene / LoginScene
+│   ├── MainMenuScene
+│   ├── SinglePlayScene    # Single player vs CPU
+│   ├── RoomScene          # Lobby / room list
+│   ├── MultiPlayScene     # Online multiplayer
+│   ├── LeaderboardScene
+│   ├── ProfileScene / SettingScene
+│   └── RulesScene
+├── Scripts/
+│   ├── Core/          # HandEvaluator, Rules, UserSession, Utils, etc.
+│   ├── Manager/       # Auth, API, WebSocket, GameFlow, Betting, CPU AI
+│   ├── UI/            # Scene controllers (MainMenu, Login, Room, etc.)
+│   └── Prefab/        # Card, Player, RoomItem, UI components
+├── Prefabs/
+├── Resources/         # Fonts, deploy (WebGL index_template.html)
+├── Demigiant/DOTween # Animation
+├── TextMesh Pro/     # Text rendering
+└── Plugins/          # Android (e.g. mainTemplate.gradle)
+Packages/              # manifest.json (NativeWebSocket, SocketIO, etc.)
+ProjectSettings/       # Unity version, build settings, quality
+```
 
-- Update the API docs with the new query parameters and examples
+---
 
-- Improve logging so we can trace requests through the pipeline in production
+## Getting Started
 
-- Implement basic rate limiting to avoid overwhelming the downstream service
+### 1. Clone and open in Unity
 
-- Fix race condition in the cache that could return stale data under load
+```bash
+git clone <repository-url>
+cd 5carddraw-frontend
+```
 
-- Bump the library version and pin the dependency in requirements
+Open the project folder in **Unity Hub** and open with Unity **2022.3.x**.
 
-- Clean up the test fixtures and move shared data to a single file
+### 2. Backend
 
-- Handle the case when the config file exists but is not readable
+The game expects:
 
-- Simplify the CLI by merging the two similar subcommands into one
+- **REST API** at `http://localhost:3000/api` in the Editor / development builds.
+- **Production API** at `https://5carddraw.app/api` in release builds.
+- **WebSocket** server for multiplayer (connection is managed by `WebSocketManager` using the current user session).
 
-- Remove the unused parameter that was left from an old refactor
+Configure or override URLs in the **APIService** component if your backend runs elsewhere.
 
-- Remove the unused parameter that was left from an old refactor
+### 3. Run in Editor
 
-- Add a unit test for the edge case when the list is empty
+1. Open **SplashScene** (or the first scene in **File → Build Settings**).
+2. Press **Play**.
 
-- Adjust the queue size to prevent drops under burst traffic
+Flow: Splash → Login/Register (or guest) → Main Menu → Single Play or Online (Room → Multi Play).
 
-- Bump the version and tag the release in the repo
+---
 
-- Improve the error recovery when the database connection is lost
+## Build
 
-- Fix bug where the parser would hang on malformed input
+### WebGL
 
-- Update the deployment docs with the new environment variables
+1. **File → Build Settings** → Platform **WebGL** → Switch Platform (if needed).
+2. Build (and optionally copy to `StreamingAssets` as required by your deploy setup).
+3. Deploy the build output together with your HTML/loader. A custom loader template is in `Assets/Resources/deploy/index_template.html` (update `BUILD_VERSION` and `BUILD_FOLDER` per build).
 
-- Support optional config file path via env var for easier deployment
+### Android
 
-- Bump the tool version and update the pre-commit hook config
+1. **File → Build Settings** → Platform **Android** → Switch Platform.
+2. Configure **Player Settings** (package name, etc.).
+3. Build APK/AAB. Android Gradle template: `Assets/Plugins/Android/mainTemplate.gradle`.
 
-- Clean up the TODO comments that were already addressed
+---
 
-- Implement a simple metrics endpoint for Prometheus scraping
+## Main Features
 
-- Bump the CI image to use the latest stable runner version
+- **Single player**: 5-card draw vs CPU; full hand ranking (e.g. Royal Flush, Straight Flush, Four of a Kind, Full House, Flush, Straight, Three of a Kind, Two Pair, One Pair, High Card).
+- **Multiplayer**: Rooms, matchmaking, real-time play over WebSocket.
+- **Auth**: Guest mode, login, register; session used for API and WebSocket.
+- **Profile & leaderboard**: User profile and global leaderboard (requires backend).
+- **Settings**: In-game settings scene.
+- **Rules**: In-game rules screen.
 
-- Support loading config from multiple files with later overriding earlier
+---
 
-- Remove obsolete workaround now that the upstream bug is fixed
+## Key Dependencies (Packages)
 
-- Simplify the dependency injection so it's easier to mock in tests
+- **com.unity.inputsystem** – New Input System
+- **com.unity.textmeshpro** – UI text
+- **com.unity.ugui** – UI
+- **NativeWebSocket** (GitHub) – WebSocket client
+- **SocketIOUnity** (GitHub) – Socket.IO client
+- **Unity UI Rounded Corners** (GitHub) – Rounded UI
+- **DOTween** (in Assets) – Animations
 
-- Clean up unused imports and fix formatting to match the project style guide
+See `Packages/manifest.json` for the full list.
 
-- Support custom headers in the client for API key or auth tokens
+---
 
-- Support custom headers in the client for API key or auth tokens
+## Configuration
 
-- Remove the experimental feature that didn't make it into the release
+- **API URLs**: In the scene/object that holds **APIService**, set:
+  - `localBackendURL` – used in Editor and debug builds.
+  - `productionBackendURL` – used in release builds.
+- **Debug**: Use **DebugConfig** (and any project-specific debug flags) to control logging.
 
-- Add proper error handling for invalid config so the app doesn't crash on startup
+---
 
-- Remove deprecated CLI flag and update docs to use the new option
+## License & Credits
 
-- Implement proper backoff with jitter for the retry logic
+- **Company / product**: Belle View Best – 5 Card Draw (see WebGL template in `Assets/Resources/deploy/`).
+- Third-party assets and packages are subject to their own licenses (e.g. DOTween, TextMesh Pro, Socket.IO, NativeWebSocket).
 
-- Fix bug where the parser would hang on malformed input
+---
 
-- Add integration tests for the new export endpoint
+## Version
 
-- Add validation for the config schema before applying settings
-
-- Adjust the threshold so we only log when it's actually an issue
-
-- Refactor config loading into a separate module for better testability
-
-- Handle the case when the config file exists but is not readable
-
-- Clean up the deprecated alias and point callers to the new name
-
-- Refactor exports so the public API is clearer and easier to use
-
-- Refactor utils to use a single source of truth for default values
-
-- Correct the logic that determined whether to use cache or not
-
-- Bump the library version and pin the dependency in requirements
-
-- Correct the comparison that was using the wrong operator
-
-- Update the API docs with the new query parameters and examples
-
-- Adjust the threshold so we only log when it's actually an issue
-
-- Bump the version and tag the release in the repo
-
-- Add a smoke test that runs in CI to catch obvious regressions
-
-- Correct the default path used when no config file is specified
-
-- Update the changelog with the fixes included in this release
+- **Unity**: 2022.3.62f2  
+- **Game**: version referenced in WebGL deploy template (e.g. 1.0.2); update there when releasing new builds.
