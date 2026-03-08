@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/SplashScene.unity
+    guid: e7c53b3b5d32eec4899b6a5d1ff395a2
+  - enabled: 1
+    path: Assets/Scenes/RegisterScene.unity
+    guid: 91c681244649b364195acdc5c8bb357d
+  - enabled: 1
+    path: Assets/Scenes/LoginScene.unity
+    guid: 4c73f74da4b28214db624a297e95fa37
+  - enabled: 1
+    path: Assets/Scenes/MainMenuScene.unity
+    guid: 10674ad35020cef409267fc57fae7c9c
+  - enabled: 1
+    path: Assets/Scenes/SinglePlayScene.unity
+    guid: 585ef8079fef50149a4c1c98318fd815
+  - enabled: 1
+    path: Assets/Scenes/RulesScene.unity
+    guid: fe0a34d87a447b24eb12698fb08a0ffe
+  - enabled: 1
+    path: Assets/Scenes/ProfileScene.unity
+    guid: 89166801052f4d946988181a80a5f8f0
+  - enabled: 1
+    path: Assets/Scenes/RoomScene.unity
+    guid: 26e2f5710062dac47a45c5a3852c0621
+  - enabled: 1
+    path: Assets/Scenes/MultiPlayScene.unity
+    guid: 0291a6983963e164596896dfdbccd07d
+  - enabled: 1
+    path: Assets/Scenes/LeaderboardScene.unity
+    guid: 97c9420cd70a62d4281139b21823bc7b
+  - enabled: 1
+    path: Assets/Scenes/SettingScene.unity
+    guid: f8a0e5b778f45b8429dcbbf4f3ed5e7d
+  m_configObjects: {}

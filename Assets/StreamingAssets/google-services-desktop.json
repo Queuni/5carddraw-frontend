@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "102585067143",
+    "project_id": "drawpoker-firebase",
+    "storage_bucket": "drawpoker-firebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:102585067143:web:edbce4231f741e29caba22",
+        "android_client_info": {
+          "package_name": "com.drawpoker.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh2h1a4wXIpO3sTHCxn8dfoxxjHshi9OM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
